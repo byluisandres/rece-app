@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vant": "^3.6.4",
+    "vant": "4.0.0-rc.",
     "vue": "^3.2.37"
   },
   "devDependencies": {
