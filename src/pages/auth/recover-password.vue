@@ -11,37 +11,20 @@
               label="Email"
               placeholder="Email"
             />
-            <van-field
-              v-model="form.password"
-              type="password"
-              name="assword"
-              label="Contraseña"
-              placeholder="Password"
-            />
           </van-cell-group>
         </van-col>
       </van-row>
       <van-row class="mb">
         <van-button round block color="#111827" native-type="submit">
-          Iniciar Sesión
+          Recuperar contraseña
         </van-button>
       </van-row>
       <van-row justify="end" class="mb">
         <van-col>
             <span style="font-size:.8rem">
-                Aún no tienes cuenta
-                <router-link to="/auth/register">Registrarse</router-link>
+                Ya tiene cuenta
+                <router-link to="/">Iniciar sesión</router-link>
             </span>
-        </van-col>
-      </van-row>
-      <van-row justify="end" class="mb">
-        <van-col>
-          <span style="font-size:.8rem">
-            ¿Has olvidado la contraseña?
-            <router-link to="/auth/recover-password"
-              >Recuperar contraseña</router-link
-            >
-          </span>
         </van-col>
       </van-row>
     </van-form>
