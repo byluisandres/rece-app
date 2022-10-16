@@ -28,14 +28,14 @@
     <template #right>
       <van-button
         square
-        text="Editar"
+        icon="edit"
         type="primary"
         class="buttons-action"
         @click="recipeEdit"
       />
       <van-button
         square
-        text="Delete"
+        icon="delete-o"
         type="danger"
         class="buttons-action"
         @click="recipeDelete"
