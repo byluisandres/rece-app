@@ -35,7 +35,7 @@
         </van-col>
       </van-row>
       <van-row class="mb">
-        <van-button round block color="#111827" native-type="submit">
+        <van-button round block color="#111827" size="small" native-type="submit">
           Registrarse
         </van-button>
       </van-row>
@@ -51,22 +51,14 @@
   </div>
 </template>
 <script>
-import FormClase from "../../classes/Form";
-import { Form, Field, CellGroup, NavBar, Col, Row } from "vant";
+import Form from "../../classes/Form";
 
 export default {
   name: "login",
-  components: {
-    Form,
-    Field,
-    CellGroup,
-    NavBar,
-    Col,
-    Row,
-  },
+  components: {},
   data() {
     return {
-      form: new FormClase({
+      form: new Form({
         name: "",
         email: "",
         password: "",
