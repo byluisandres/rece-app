@@ -1,5 +1,7 @@
 <template lang="">
-        <FullCalendar :options="calendarOptions" />
+  <div class="page-calendar">
+    <FullCalendar :options="calendarOptions" />
+  </div>
 </template>
 <script>
 import "@fullcalendar/core/vdom"; // solves problem with Vite
@@ -30,4 +32,8 @@ export default {
   },
 };
 </script>
-<style lang=""></style>
+<style lang="css">
+.page-calendar{
+  height: 100vh;
+}
+</style>
